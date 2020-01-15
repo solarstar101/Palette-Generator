@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker:200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Blinker';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #290b3d;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #49156b;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #c4c4c4;
+}
+
+::selection {
+	background: #3b085e;
+	color: white;
+}
